@@ -1,9 +1,9 @@
 2PopQuadrat Created by Saverio Simonelli MIT license 2020
 
 This program implements a spatial independence test: 
-a two-population quadrat method as explained by Bianca Capuano in IB Biology for the Diploma Programme, chapter 4.2[53]. 
+a two-population quadrat method as explained by Bianca Capuano in IB Biology for the Diploma Programme, chapter 4.2 . 
 It follows the algorithm provided by B. Capuano and Y. Sadahiro in its lessons, available at the link:
-http://ua.t.u-tokyo.ac.jp/okabelab/sada/docs/pdf_class/Ch06_2c.pdf [55]. 
+http://ua.t.u-tokyo.ac.jp/okabelab/sada/docs/pdf_class/Ch06_2c.pdf . 
 
 According to this algorithm, the subarea of interest, S, is divided into rectangular cells. 
 
