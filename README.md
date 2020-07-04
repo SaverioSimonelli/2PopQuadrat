@@ -10,7 +10,7 @@ According to this algorithm, the subarea of interest, S, is divided into rectang
 Subsequently, the rectangles containing points of both populations, Cab, the cells containing points of a single population, Ca0 and C0b, and the empty ones, C00, are counted. 
 
 These values are organized as a contingency matrix, to which a chi-square test can be applied to verify independence.
-
+<pre>
 Be
 S region of interest
 Pa set of points from population A
@@ -32,4 +32,6 @@ OUTPUT: p
 6. do chi-square test about T
 7. extract p from chi-square value
 8. return p
+
+</pre>
 
