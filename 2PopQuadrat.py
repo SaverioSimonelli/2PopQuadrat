@@ -232,18 +232,12 @@ def test(datafiles, xname, yname):
 
 
 xname = "G-Score"
-yname = "log2FoldChange"
+yname = "yvariable"
 datafile1 =	 ""
 #directory + file name
 
 datafile2 = ""
 # = datafile1 when comparing different regions from same point pattern or != datafile 1 when comparing two patterns
-
-datafile1 =  "C:/Users/Utente/Desktop/MacsBio/data/MCF7_BreastCancerCells/6_CoCulturedMCF7_LGvsCoCulturedMCF7_HG/6red_dist_QgrsWebReverseComplement_MCF7_BreastCancerCells_6_CoCulturedMCF7_LGvsCoCulturedMCF7_HG_20200213.csv"
-
-#datafile1 =  "C:/Users/Utente/Desktop/MacsBio/data/MCF7_BreastCancerCells/5_CoCulturedMCF7_HGvsMCF7_HG/5red_dist_QgrsWebReverseComplement_MCF7_BreastCancerCells_5_CoCulturedMCF7_HGvsMCF7_HG_20200215.csv"
-
-datafile2 = "C:/Users/Utente/Desktop/MacsBio/data/Adipocytes/8_CoCulturedADIPO_LGvsADIPO_LG/8red_dist_QgrsWebReverseComplement_Adipocytes_8_CoCulturedADIPO_LGvsADIPO_LG_20200215.csv"
 
 print(datafile1, datafile2)
 test([datafile1, datafile2], xname, yname)
